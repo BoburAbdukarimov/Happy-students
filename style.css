@@ -27,36 +27,47 @@ h2 span{
     0%
     {
         color: #fff;
-        filter: blur(0px) hue-rotate(0deg); 
-        text-shadow: 0 0 10px #00b3ff,
-        0 0 20px #00b3ff,
-        0 0 40px #00b3ff,
-        0 0 80px #00b3ff,
-        0 0 120px #00b3ff,
-        0 0 200px #00b3ff,
-        0 0 300px #00b3ff,
-        0 0 400px #00b3ff;
+        filter: blur(-0.1px) hue-rotate(-0deg); 
+        text-shadow: 0 0 10px #08ff1c,
+        0 0 20px #2cff3e,
+        0 0 40px #2cff3e,
+        0 0 80px #2cff3e,
+        0 0 120px #2cff3e,
+        0 0 200px #2cff3e,
+        0 0 300px #2cff3e,
+        0 0 400px #2cff3e;
     }
     30%,70%
     {
         color: #fff;
-        filter: blur(0px) hue-rotate(360deg); 
-        text-shadow: 0 0 10px #00b3ff,
-        0 0 20px #00b3ff,
-        0 0 40px #00b3ff,
-        0 0 80px #00b3ff,
-        0 0 120px #00b3ff,
-        0 0 200px #00b3ff;
+        filter: blur(-0.1px) hue-rotate(-360deg); 
+        text-shadow: 0 0 10px #bc2cff,
+        0 0 20px #bc2cff,
+        0 0 40px #bc2cff,
+        0 0 80px #bc2cff,
+        0 0 120px #bc2cff,
+        0 0 200px #2cff3e;
+
+    }
+    80%{
+        color: #fff;
+        filter: blur(-0.1px) hue-rotate(-360deg); 
+        text-shadow: 0 0 10px #ff2c2c,
+        0 0 20px #ff2c2c,
+        0 0 40px #ff2c2c,
+        0 0 80px #ff2c2c,
+        0 0 120px #ff2c2c,
+        0 0 200px #ff2c2c;
     }
     100%
     {
         color: transparent;
         box-shadow: none;
-        filter: blur(0px) hue-rotate(0deg); 
+        filter: blur(-0.1px) hue-rotate(-0deg); 
 
     }
 }
-@media (max-width: 425px){
+@media (max-width: 435px){
     h2{
         font-size: 7vh;
         color: transparent;
